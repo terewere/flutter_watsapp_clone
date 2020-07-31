@@ -63,28 +63,31 @@ class Whatsapp extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('images/ic_gir_logo.png'))),
                       ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: Container(
-                              width: 230,
-                              child: Text(
-                                'GH Islamic Radio Group',
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                width: 230,
+                                child: Text(
+                                  'GH Islamic Radio Group',
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
-                          ),
-                          Text(
-                            'Faisal: Can we pick from the link...',
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          )
-                        ],
+                            Text(
+                              'Faisal: Can we pick from the link...',
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            )
+                          ],
+                        ),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -115,27 +118,30 @@ class Whatsapp extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('images/coders.jpeg'))),
                       ),
-                      Column(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: Container(
-                              width: 230,
-                              child: Text(
-                                'ZongoVation Hub Start-Ups',
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                width: 230,
+                                child: Text(
+                                  'ZongoVation Hub Start-Ups',
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
-                          ),
-                          Text(
-                            'Mahmoud: https://medium.com/...',
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          )
-                        ],
+                            Text(
+                              'Mahmoud: https://medium.com/',
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            )
+                          ],
+                        ),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -176,28 +182,31 @@ class Whatsapp extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('images/luv.jpeg'))),
                       ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: Container(
-                              width: 230,
-                              child: Text(
-                                'LUV, MARRIAGE & JANNA...',
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                width: 230,
+                                child: Text(
+                                  'LUV, MARRIAGE & JANNA...',
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
-                          ),
-                          Text(
-                            'Muhsin: awesome! \u{1F44C}',
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          )
-                        ],
+                            Text(
+                              'Muhsin: awesome! \u{1F44C}',
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            )
+                          ],
+                        ),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -238,29 +247,32 @@ class Whatsapp extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('images/tom.jpeg'))),
                       ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: Container(
-                              width: 230,
-                              child: Text(
-                                'AMSA Old Toms',
-                                textWidthBasis: TextWidthBasis.parent,
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                width: 230,
+                                child: Text(
+                                  'AMSA Old Toms',
+                                  textWidthBasis: TextWidthBasis.parent,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
-                          ),
-                          Text(
-                            '+ 233 24 4564880: Topic:Principles...',
+                            Text(
+                              '+ 233 24 4564880: Topic:Principles...',
 //                      maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          )
-                        ],
+                              overflow: TextOverflow.ellipsis,
+                            )
+                          ],
+                        ),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -301,29 +313,32 @@ class Whatsapp extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('images/hajj.jpeg'))),
                       ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: Container(
-                              width: 230,
-                              child: Text(
-                                'Advance Team. Hajj 2019',
-                                textWidthBasis: TextWidthBasis.parent,
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                width: 230,
+                                child: Text(
+                                  'Advance Team. Hajj 2019',
+                                  textWidthBasis: TextWidthBasis.parent,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
-                          ),
-                          Text(
-                            'Ali: Beautiful message. Thank you...',
+                            Text(
+                              'Ali: Beautiful message. Thank you...',
 //                      maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          )
-                        ],
+                              overflow: TextOverflow.ellipsis,
+                            )
+                          ],
+                        ),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -364,29 +379,32 @@ class Whatsapp extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('images/focus.jpeg'))),
                       ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: Container(
-                              width: 230,
-                              child: Text(
-                                'Zongo Focus (ZF)',
-                                textWidthBasis: TextWidthBasis.parent,
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                width: 230,
+                                child: Text(
+                                  'Zongo Focus (ZF)',
+                                  textWidthBasis: TextWidthBasis.parent,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
-                          ),
-                          Text(
-                            '+233 20 5449008: Join our NEWSP...',
+                            Text(
+                              '+233 20 5449008: Join our NEWSP...',
 //                      maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          )
-                        ],
+                              overflow: TextOverflow.ellipsis,
+                            )
+                          ],
+                        ),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -427,29 +445,32 @@ class Whatsapp extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('images/kotey.jpeg'))),
                       ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: Container(
-                              width: 230,
-                              child: Text(
-                                'Kotey',
-                                textWidthBasis: TextWidthBasis.parent,
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                width: 230,
+                                child: Text(
+                                  'Kotey',
+                                  textWidthBasis: TextWidthBasis.parent,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
-                          ),
-                          Text(
-                            'I have it. Jazak Allah',
+                            Text(
+                              'I have it. Jazak Allah',
 //                      maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          )
-                        ],
+                              overflow: TextOverflow.ellipsis,
+                            )
+                          ],
+                        ),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -480,29 +501,32 @@ class Whatsapp extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('images/latif.jpeg'))),
                       ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: Container(
-                              width: 230,
-                              child: Text(
-                                'Latif',
-                                textWidthBasis: TextWidthBasis.parent,
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                width: 230,
+                                child: Text(
+                                  'Latif',
+                                  textWidthBasis: TextWidthBasis.parent,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
-                          ),
-                          Text(
-                            'well done.',
+                            Text(
+                              'well done.',
 //                      maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          )
-                        ],
+                              overflow: TextOverflow.ellipsis,
+                            )
+                          ],
+                        ),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -533,29 +557,32 @@ class Whatsapp extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('images/js.jpeg'))),
                       ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: Container(
-                              width: 230,
-                              child: Text(
-                                'JS Space',
-                                textWidthBasis: TextWidthBasis.parent,
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                width: 230,
+                                child: Text(
+                                  'JS Space',
+                                  textWidthBasis: TextWidthBasis.parent,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
-                          ),
-                          Text(
-                            '+233 26 7655433 left',
+                            Text(
+                              '+233 26 7655433 left',
 //                      maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          )
-                        ],
+                              overflow: TextOverflow.ellipsis,
+                            )
+                          ],
+                        ),
                       ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,

@@ -14,6 +14,7 @@ dependencies:
 
   cupertino_icons: ^0.1.3
   meta:
+  font_awesome_flutter:
 
 
 dev_dependencies:
